@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Y2025 on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/y2025/</link>
+    <description>Recent content in Y2025 on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/y2025/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My first blog post!</title>
+      <link>http://localhost:1313/posts/my-first-blog-post/</link>
+      <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/my-first-blog-post/</guid>
+      <description>&lt;h1 id=&#34;my-first-blog-post&#34;&gt;My First Blog Post!&lt;/h1&gt;
+&lt;p&gt;This is my FIRST blog post following
+&lt;a href=&#34;https://www.youtube.com/watch?v=dnE7c0ELEH8&#34;&gt;https://www.youtube.com/watch?v=dnE7c0ELEH8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;!&lt;img src=&#34;http://localhost:1313/images/img-My%20first%20blog%20post!-20250329-1.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Key Workflow:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Setup posts in Obsidian
+&lt;ol&gt;
+&lt;li&gt;Follows md format&lt;/li&gt;
+&lt;li&gt;Uses &lt;strong&gt;title&lt;/strong&gt; &lt;strong&gt;date&lt;/strong&gt; &lt;strong&gt;tags&lt;/strong&gt; &lt;strong&gt;drafs&lt;/strong&gt; to be auto-formatted&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;robocopy posts to Hugo
+&lt;ol&gt;
+&lt;li&gt;robocopy &amp;ldquo;C:\Github\obsidian\posts&amp;rdquo; &amp;ldquo;C:\Blog\idle-reflections\content\posts&amp;rdquo; /mir&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Use hugo server to set this up
+&lt;ol&gt;
+&lt;li&gt;hugo server -t [theme-name]&lt;/li&gt;
+&lt;li&gt;hugo server -t re-terminal&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!createdat] Created at: [[2025-03-29]]&lt;/p&gt;&lt;/blockquote&gt;</description>
+      <content>&lt;h1 id=&#34;my-first-blog-post&#34;&gt;My First Blog Post!&lt;/h1&gt;
+&lt;p&gt;This is my FIRST blog post following
+&lt;a href=&#34;https://www.youtube.com/watch?v=dnE7c0ELEH8&#34;&gt;https://www.youtube.com/watch?v=dnE7c0ELEH8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;!&lt;img src=&#34;http://localhost:1313/images/img-My%20first%20blog%20post!-20250329-1.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Key Workflow:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Setup posts in Obsidian
+&lt;ol&gt;
+&lt;li&gt;Follows md format&lt;/li&gt;
+&lt;li&gt;Uses &lt;strong&gt;title&lt;/strong&gt; &lt;strong&gt;date&lt;/strong&gt; &lt;strong&gt;tags&lt;/strong&gt; &lt;strong&gt;drafs&lt;/strong&gt; to be auto-formatted&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;robocopy posts to Hugo
+&lt;ol&gt;
+&lt;li&gt;robocopy &amp;ldquo;C:\Github\obsidian\posts&amp;rdquo; &amp;ldquo;C:\Blog\idle-reflections\content\posts&amp;rdquo; /mir&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Use hugo server to set this up
+&lt;ol&gt;
+&lt;li&gt;hugo server -t [theme-name]&lt;/li&gt;
+&lt;li&gt;hugo server -t re-terminal&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!createdat] Created at: [[2025-03-29]]&lt;/p&gt;&lt;/blockquote&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
