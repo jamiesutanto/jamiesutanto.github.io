@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<h1 class="title">{{ site.Title }} – Home</h1>
+
+{{ partial "sections.html" . }}
+
+<div class="container">
+	<h2 class="subtitle">Recent</h2>
+
+	{{ $allStrips := slice -}}
+	{{- range .Site.AllPages -}}
+	{{- range .Resources -}}
+	{{- $allStrips = append . $allStrips -}}
+	{{- end -}}
+	{{- end }}
+
+	{{ range where $allStrips "Name" "like" `^[^/]*$` | collections.Sort | collections.Reverse | first 14 }}
+{{ partial "strip.html" . }}
+	{{ end }}
+</div>
+
+{{ end }}

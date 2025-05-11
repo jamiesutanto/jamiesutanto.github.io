@@ -1,0 +1,12 @@
+baseURL: https://www.twopagejournal.com/
+languageCode: en-us
+title: Two Page Journal
+theme: hugo-theme-comic
+
+params:
+  introduction: "Idle reflections on life!"
+
+disableKinds:
+- taxonomy
+- term
+

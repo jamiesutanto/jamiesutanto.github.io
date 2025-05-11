@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<h1 class="title">{{ site.Title }} – {{ partial "title.html" . }}</h1>
+
+{{ partial "sections.html" . }}
+
+<div class="container">
+	<h2 class="subtitle">Strips</h2>
+
+	{{ range append . .Sections }}
+		{{ range .Resources }}
+{{ partial "strip.html" . }}
+		{{ end }}
+	{{ end }}
+</div>
+
+{{ end }}

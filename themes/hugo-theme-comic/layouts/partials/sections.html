@@ -1,0 +1,32 @@
+{{ if .Site.Params.introduction }}
+<div class="container">
+    <div class="block mb-4">{{ .Site.Params.introduction | safeHTML }}</div>
+</div>
+{{ end }}
+
+{{ if (gt (len .Sections) 0) }}
+<div class="container">
+    <h2 class="subtitle">Jump to</h2>
+    <div class="block mb-4">
+        {{ range .Sections }}
+            {{ $matches := findRESubmatch `^(\d{4})(?:(\d{2}))?` .File.Path 1 }}
+            {{ if $matches }}
+                {{ $year := index (index $matches 0) 1 }}
+                {{ $month := index (index $matches 0) 2 }}
+
+                {{ $date := time.Now }}
+                {{ $dateString := "" }}
+
+                {{ if (ne $month "") }}
+                    {{ $date = printf "%04d-%02d-01" (int $year) (int $month) 1 | time.AsTime }}
+                    {{ $dateString = time.Format "January 2006" $date }}
+                {{ else }}
+                    {{ $date = printf "%04d-01-01" (int $year) | time.AsTime }}  {{/* Always default to January */}}
+                    {{ $dateString = time.Format "2006" $date }}
+                {{ end }}
+                <a class="button" href="{{ .RelPermalink }}">{{ $dateString }}</a>
+            {{ end }}
+        {{ end }}
+    </div>
+</div>
+{{ end }}

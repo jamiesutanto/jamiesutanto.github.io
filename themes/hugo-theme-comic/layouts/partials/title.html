@@ -1,0 +1,17 @@
+{{- if .Title -}}
+    {{- .Title -}}
+{{- else -}}
+    {{- $matches := findRESubmatch `^(\d{4})(?:(\d{2}))?` .File.Path 1 -}}
+    {{- $year := index (index $matches 0) 1 -}}
+    {{- $month := index (index $matches 0) 2 | strings.TrimLeft "0" -}}
+    {{- $date := time.Now -}}
+    {{- $dateString := "" -}}
+    {{- if (ne $month "") -}}
+        {{- $date = printf "%04d-%02d-%02d" (int $year) (int $month) 1 | time.AsTime -}}
+        {{- $dateString = time.Format "January 2006" $date -}}
+    {{- else -}}
+        {{- $date = printf "%04d-%02d-%02d" (int $year) 1 1 | time.AsTime -}}
+        {{- $dateString = time.Format "2006" $date -}}
+    {{- end -}}
+    {{- $dateString -}}
+{{- end -}}

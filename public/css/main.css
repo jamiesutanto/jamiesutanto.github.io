@@ -1,0 +1,16 @@
+body {
+	min-height: 100vh;
+	background-color: #ffc78a;
+}
+
+.container {
+	background-color: white;
+}
+
+/* Counteract the negative margins that Bulma applies for … reasons */
+.navbar-brand {
+	margin-left: 0 !important;
+}
+.navbar-menu {
+	margin-right: 0 !important;
+}

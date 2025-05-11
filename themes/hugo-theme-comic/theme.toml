@@ -1,0 +1,12 @@
+name = "Comic"
+license = "MIT"
+licenselink = "https://gitlab.com/mrubli/hugo-theme-comic/-/blob/master/LICENSE"
+description = "Hugo Comic Theme"
+homepage = "https://gitlab.com/mrubli/hugo-theme-comic"
+demosite = "https://mrubli.gitlab.io/hugo-xkcd/"
+tags = ["comic", "minimalist"]
+features = ["responsive", "single-column"]
+
+[author]
+  name = "Martin Rubli"
+  homepage = "https://gitlab.com/mrubli"
