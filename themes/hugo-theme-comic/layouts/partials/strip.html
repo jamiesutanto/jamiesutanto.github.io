@@ -1,7 +1,8 @@
-{{- $dateString := replaceRE `\.[^.]+$` "" .Name -}}
-{{- $date := time.AsTime $dateString -}}
+{{- $title := replaceRE `\.[^.]+$` "" .Name -}}
 
 <div class="block">
-	<div class="is-size-4">{{ time.Format "Jan 2 2006" $date }}</div>
+	<div class="is-size-4" style="text-align: center; padding: 20px;">
+		{{ $title }}
+	</div>
 	<img src="{{ .RelPermalink }}" width="{{ .Width }}px" />
 </div>
