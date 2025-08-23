@@ -2,23 +2,23 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Blowfish"
+title = "Two Page Journal"
 
 [params]
   displayName = "EN"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  # logo = "img/logo.png"
+  logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
+  description = "Two Page Journal"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
   name = "Jamie S"
-  email = "luco22@gmail.com"
-#   image = "img/blowfish_logo.png"
-#   imageQuality = 96
+  email = "jamie.sutanto@gmail.com"
+  image = "img/logo.png"
+  imageQuality = 96
 #   headline = "I'm only human"
 #   bio = "A little bit about you"
 #   links = [

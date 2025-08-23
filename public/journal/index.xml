@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Journals on Blowfish</title>
-    <link>/journal/</link>
-    <description>Recent content in Journals on Blowfish</description>
+    <title>Journals on Two Page Journal</title>
+    <link>https://jamiesutanto.github.io/journal/</link>
+    <description>Recent content in Journals on Two Page Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>luco22@gmail.com (Jamie S)</managingEditor>
-    <webMaster>luco22@gmail.com (Jamie S)</webMaster>
+    <managingEditor>jamie.sutanto@gmail.com (Jamie S)</managingEditor>
+    <webMaster>jamie.sutanto@gmail.com (Jamie S)</webMaster>
     <copyright>© 2025 Jamie S</copyright>
-    <atom:link href="/journal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamiesutanto.github.io/journal/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Challenge of Planning</title>
-      <link>/journal/2025-08-17---challenge-of-planning/</link>
+      <link>https://jamiesutanto.github.io/journal/2025-08-17---challenge-of-planning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>luco22@gmail.com (Jamie S)</author>
-      <guid>/journal/2025-08-17---challenge-of-planning/</guid>
+      <author>jamie.sutanto@gmail.com (Jamie S)</author>
+      <guid>https://jamiesutanto.github.io/journal/2025-08-17---challenge-of-planning/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/journal/2025-08-17---challenge-of-planning/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://jamiesutanto.github.io/journal/2025-08-17---challenge-of-planning/featured.jpg" />
     </item>
     
     <item>
       <title>Meet Others</title>
-      <link>/journal/2025-08-21---meet-others-how-they-want-to-be-met/</link>
+      <link>https://jamiesutanto.github.io/journal/2025-08-21---meet-others-how-they-want-to-be-met/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>luco22@gmail.com (Jamie S)</author>
-      <guid>/journal/2025-08-21---meet-others-how-they-want-to-be-met/</guid>
+      <author>jamie.sutanto@gmail.com (Jamie S)</author>
+      <guid>https://jamiesutanto.github.io/journal/2025-08-21---meet-others-how-they-want-to-be-met/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/journal/2025-08-21---meet-others-how-they-want-to-be-met/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://jamiesutanto.github.io/journal/2025-08-21---meet-others-how-they-want-to-be-met/featured.jpg" />
     </item>
     
     <item>
       <title>Satisfaction of a Job Well Done</title>
-      <link>/journal/2025-07-24---satisfaction-of-a-job-well-done/</link>
+      <link>https://jamiesutanto.github.io/journal/2025-07-24---satisfaction-of-a-job-well-done/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>luco22@gmail.com (Jamie S)</author>
-      <guid>/journal/2025-07-24---satisfaction-of-a-job-well-done/</guid>
+      <author>jamie.sutanto@gmail.com (Jamie S)</author>
+      <guid>https://jamiesutanto.github.io/journal/2025-07-24---satisfaction-of-a-job-well-done/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/journal/2025-07-24---satisfaction-of-a-job-well-done/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://jamiesutanto.github.io/journal/2025-07-24---satisfaction-of-a-job-well-done/featured.jpg" />
     </item>
     
   </channel>

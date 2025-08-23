@@ -13,9 +13,9 @@ enableA11y = false
 enableSearch = true
 enableCodeCopy = false
 
-replyByEmail = false
+replyByEmail = true
 
-# mainSections = ["section1", "section2"]
+mainSections = ["journal"]
 # robots = ""
 
 disableImageOptimization = false
@@ -43,7 +43,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showMenu = true
   showCopyright = true
   showThemeAttribution = true
-  showAppearanceSwitcher = true
+  showAppearanceSwitcher = false
   showScrollToTop = true
 
 [homepage]
@@ -54,7 +54,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showMoreLink = false
   showMoreLinkDest = "/journal/"
   cardView = true
-  cardViewScreenWidth = false
+  cardViewScreenWidth = true
   layoutBackgroundBlur = false # only used when layout equals background
   disableHeroImageFilter = false # only used when layout equals hero
 
@@ -67,7 +67,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showAuthor = false
   # showAuthorBottom = false
   showHero = false
-  # heroStyle = "big" # valid options: basic, big, background, thumbAndBackground
+  # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = false
