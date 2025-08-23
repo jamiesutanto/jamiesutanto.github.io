@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Journal on Blowfish</title>
+    <link>/categories/journal/</link>
+    <description>Recent content in Journal on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>luco22@gmail.com (Jamie S)</managingEditor>
+    <webMaster>luco22@gmail.com (Jamie S)</webMaster>
+    <copyright>© 2025 Jamie S</copyright>
+    <atom:link href="/categories/journal/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Challenge of Planning</title>
+      <link>/journal/2025-08-17---challenge-of-planning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>luco22@gmail.com (Jamie S)</author>
+      <guid>/journal/2025-08-17---challenge-of-planning/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/journal/2025-08-17---challenge-of-planning/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Meet Others</title>
+      <link>/journal/2025-08-21---meet-others-how-they-want-to-be-met/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>luco22@gmail.com (Jamie S)</author>
+      <guid>/journal/2025-08-21---meet-others-how-they-want-to-be-met/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/journal/2025-08-21---meet-others-how-they-want-to-be-met/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Satisfaction of a Job Well Done</title>
+      <link>/journal/2025-07-24---satisfaction-of-a-job-well-done/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>luco22@gmail.com (Jamie S)</author>
+      <guid>/journal/2025-07-24---satisfaction-of-a-job-well-done/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/journal/2025-07-24---satisfaction-of-a-job-well-done/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>
