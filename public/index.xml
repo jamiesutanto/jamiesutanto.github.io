@@ -9,7 +9,27 @@
     <managingEditor>jamie.sutanto@gmail.com (Jamie S)</managingEditor>
     <webMaster>jamie.sutanto@gmail.com (Jamie S)</webMaster>
     <copyright>© 2025 Jamie S</copyright>
-    <atom:link href="https://jamiesutanto.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jamiesutanto.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Meet Others</title>
+      <link>https://jamiesutanto.github.io/journal/2025-08-21---meet-others-how-they-want-to-be-met/</link>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
+      <author>jamie.sutanto@gmail.com (Jamie S)</author>
+      <guid>https://jamiesutanto.github.io/journal/2025-08-21---meet-others-how-they-want-to-be-met/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://jamiesutanto.github.io/journal/2025-08-21---meet-others-how-they-want-to-be-met/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Challenge of Planning</title>
+      <link>https://jamiesutanto.github.io/journal/2025-08-17---challenge-of-planning/</link>
+      <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
+      <author>jamie.sutanto@gmail.com (Jamie S)</author>
+      <guid>https://jamiesutanto.github.io/journal/2025-08-17---challenge-of-planning/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://jamiesutanto.github.io/journal/2025-08-17---challenge-of-planning/featured.jpg" />
+    </item>
     
     <item>
       <title></title>
@@ -19,26 +39,6 @@
       <guid>https://jamiesutanto.github.io/resources/</guid>
       <description></description>
       
-    </item>
-    
-    <item>
-      <title>Challenge of Planning</title>
-      <link>https://jamiesutanto.github.io/journal/2025-08-17---challenge-of-planning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>jamie.sutanto@gmail.com (Jamie S)</author>
-      <guid>https://jamiesutanto.github.io/journal/2025-08-17---challenge-of-planning/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://jamiesutanto.github.io/journal/2025-08-17---challenge-of-planning/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Meet Others</title>
-      <link>https://jamiesutanto.github.io/journal/2025-08-21---meet-others-how-they-want-to-be-met/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>jamie.sutanto@gmail.com (Jamie S)</author>
-      <guid>https://jamiesutanto.github.io/journal/2025-08-21---meet-others-how-they-want-to-be-met/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://jamiesutanto.github.io/journal/2025-08-21---meet-others-how-they-want-to-be-met/featured.jpg" />
     </item>
     
     <item>

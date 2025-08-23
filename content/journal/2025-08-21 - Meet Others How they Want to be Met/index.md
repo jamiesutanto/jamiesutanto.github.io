@@ -1,5 +1,6 @@
 ---
 title: "Meet Others"
+date: 2025-08-21
 description: "..."
 categories: ["journal"]
 tags: ["journal"]
