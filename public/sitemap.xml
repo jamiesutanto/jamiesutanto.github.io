@@ -51,6 +51,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://jamiesutanto.github.io/journal/2025-05-14---on-approaching-the-final-pages/</loc>
+    <lastmod>2025-05-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://jamiesutanto.github.io/journal/2025-05-13---welcome-new-green-ink-cartridge/</loc>
     <lastmod>2025-05-13T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -130,11 +136,6 @@
   </url>
   <url>
     <loc>https://jamiesutanto.github.io/resources/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://jamiesutanto.github.io/journal/2025-05-14-on-approaching-the-final-pages/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
