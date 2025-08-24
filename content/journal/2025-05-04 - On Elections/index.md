@@ -7,4 +7,4 @@ tags: ["journal"]
 draft: false
 ---
 
-![On Elections](featured.jpg)
+![On Elections](featured.png)

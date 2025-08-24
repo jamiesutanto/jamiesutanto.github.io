@@ -7,4 +7,4 @@ tags: ["journal"]
 draft: false
 ---
 
-![Welcome New Green Ink Cartridge](featured.jpg)
+![Welcome New Green Ink Cartridge](featured.png)

@@ -7,4 +7,4 @@ tags: ["journal"]
 draft: false
 ---
 
-![On Motivation](featured.jpg)
+![On Motivation](featured.png)

@@ -7,4 +7,4 @@ tags: ["journal"]
 draft: false
 ---
 
-![Maitri](featured.jpg)
+![Maitri](featured.png)

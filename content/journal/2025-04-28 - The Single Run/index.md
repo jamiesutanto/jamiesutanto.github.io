@@ -7,4 +7,4 @@ tags: ["journal"]
 draft: false
 ---
 
-![The Single Run](featured.jpg)
+![The Single Run](featured.png)

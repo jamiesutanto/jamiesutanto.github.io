@@ -7,4 +7,4 @@ tags: ["journal"]
 draft: false
 ---
 
-![Lady Gray](featured.jpg)
+![Lady Gray](featured.png)

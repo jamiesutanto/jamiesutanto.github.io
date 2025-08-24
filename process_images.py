@@ -25,9 +25,10 @@ tags: ["journal"]
 draft: false
 ---
 
-![{title}](featured.jpg)"""
+![{title}](featured.png)"""
 
 images = sorted(source_folder.glob("*.jpg"))
+images.extend(sorted(source_folder.glob("*.png")))
 
 for image in images:
     stem = image.stem

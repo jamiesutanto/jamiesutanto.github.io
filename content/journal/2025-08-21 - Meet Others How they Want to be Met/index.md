@@ -7,4 +7,4 @@ tags: ["journal"]
 draft: false
 ---
 
-![Meet Others How they Want to be Met](featured.jpg)
+![Meet Others How they Want to be Met](featured.png)

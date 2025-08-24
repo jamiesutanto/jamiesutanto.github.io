@@ -7,4 +7,4 @@ tags: ["journal"]
 draft: false
 ---
 
-![On Pen and Paper](featured.jpg)
+![On Pen and Paper](featured.png)

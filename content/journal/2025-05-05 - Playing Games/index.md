@@ -7,4 +7,4 @@ tags: ["journal"]
 draft: false
 ---
 
-![Playing Games](featured.jpg)
+![Playing Games](featured.png)

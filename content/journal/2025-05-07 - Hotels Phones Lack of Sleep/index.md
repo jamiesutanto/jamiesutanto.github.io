@@ -7,4 +7,4 @@ tags: ["journal"]
 draft: false
 ---
 
-![Hotels Phones Lack of Sleep](featured.jpg)
+![Hotels Phones Lack of Sleep](featured.png)

@@ -7,4 +7,4 @@ tags: ["journal"]
 draft: false
 ---
 
-![Satisfaction of a Job Well Done](featured.jpg)
+![Satisfaction of a Job Well Done](featured.png)

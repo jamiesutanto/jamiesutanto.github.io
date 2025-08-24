@@ -7,4 +7,4 @@ tags: ["journal"]
 draft: false
 ---
 
-![The End of an Ink Refill](featured.jpg)
+![The End of an Ink Refill](featured.png)

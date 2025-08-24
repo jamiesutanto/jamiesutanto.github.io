@@ -7,4 +7,4 @@ tags: ["journal"]
 draft: false
 ---
 
-![Cats Give Humans Take](featured.jpg)
+![Cats Give Humans Take](featured.png)

@@ -7,4 +7,4 @@ tags: ["journal"]
 draft: false
 ---
 
-![Two Page Journal](featured.jpg)
+![Two Page Journal](featured.png)

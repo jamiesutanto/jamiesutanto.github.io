@@ -7,4 +7,4 @@ tags: ["journal"]
 draft: false
 ---
 
-![Together](featured.jpg)
+![Together](featured.png)

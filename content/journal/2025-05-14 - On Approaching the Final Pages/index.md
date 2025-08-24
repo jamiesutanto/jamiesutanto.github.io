@@ -7,4 +7,4 @@ tags: ["journal"]
 draft: false
 ---
 
-![On Approaching the Final Pages](featured.jpg)
+![On Approaching the Final Pages](featured.png)

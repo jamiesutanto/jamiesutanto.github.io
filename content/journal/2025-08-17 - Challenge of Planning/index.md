@@ -7,4 +7,4 @@ tags: ["journal"]
 draft: false
 ---
 
-![Challenge of Planning](featured.jpg)
+![Challenge of Planning](featured.png)
