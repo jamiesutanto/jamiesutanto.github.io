@@ -1,5 +1,5 @@
 from pathlib import Path
-from shutil import copyfile
+from shutil import copy
 
 # 1. Get the path of raw images.
 # 2. For each raw image:
@@ -41,13 +41,13 @@ for image in images:
     destination_folder.mkdir(parents=True, exist_ok=True)
 
     # Process Image File
-    copyfile(image, destination_folder)
+    copy(image, destination_folder)
     copied_file = destination_folder / image.name
     copied_file.rename(destination_folder / image_file_name)
 
     # Process Index File
     index_file = destination_folder / index_file_name
 
-    date = image.stem.split(" ")[0]
-    title = image.stem.split(" ")[-1]
+    date = image.stem.split(" - ")[0]
+    title = image.stem.split(" - ")[-1]
     index_file.write_text(index_template.format(title=title, date=date))
