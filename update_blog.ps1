@@ -1,5 +1,9 @@
 # PowerShell Script for Windows
 
+$publicPath = "C:\Blog\twopagejournal\public"
+$docsPath = "C:\Blog\twopagejournal\docs"
+$cnamePath = "C:\Blog\twopagejournal\docs\CNAME"
+
 # Set Github repo 
 $myrepo = "git@github.com:jamiesutanto/jamiesutanto.github.io.git"
 
@@ -69,7 +73,30 @@ try {
     exit 1
 }
 
-# Step 4: Add changes to Git
+# Step 4: Sync public to docs folder for use with Github Pages using Robocopy
+Write-Host "Syncing public to docs..."
+
+if (-not (Test-Path $publicPath)) {
+    Write-Error "Public path does not exist: $publicPath"
+    exit 1
+}
+
+if (-not (Test-Path $docsPath)) {
+    Write-Error "Docs path does not exist: $docsPath"
+    exit 1
+}
+
+# Use Robocopy to mirror the directories
+$robocopyOptions = @('/MIR', '/Z', '/W:5', '/R:3', '/XF', $cnamePath)
+$robocopyResult = robocopy $publicPath $docsPath @robocopyOptions
+
+if ($LASTEXITCODE -ge 8) {
+    Write-Error "Robocopy failed with exit code $LASTEXITCODE"
+    exit 1
+}
+
+
+# Step 5: Add changes to Git
 Write-Host "Staging changes for Git..."
 $hasChanges = (git status --porcelain) -ne ""
 if (-not $hasChanges) {
@@ -78,7 +105,7 @@ if (-not $hasChanges) {
     git add .
 }
 
-# Step 5: Commit changes with a dynamic message
+# Step 6: Commit changes with a dynamic message
 $commitMessage = "New Blog Post on $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
 $hasStagedChanges = (git diff --cached --name-only) -ne ""
 if (-not $hasStagedChanges) {
@@ -88,7 +115,7 @@ if (-not $hasStagedChanges) {
     git commit -m "$commitMessage"
 }
 
-# Step 6: Push all changes to the main branch
+# Step 7: Push all changes to the main branch
 Write-Host "Deploying to GitHub Master..."
 try {
     git push origin master
